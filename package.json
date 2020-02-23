@@ -12,6 +12,11 @@
     "build:node": "tsc -p tsconfig.node.json",
     "build:web": "tsc -p tsconfig.es.json"
   },
+  "files": [
+    "dist",
+    "*.d.ts",
+    "*.d.ts.map"
+  ],
   "devDependencies": {
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
