@@ -6,6 +6,7 @@
   "module": "dist/es/index.js",
   "types": "index.d.ts",
   "scripts": {
+    "lint": "eslint . --ext .ts,.js --quiet",
     "test": "jest --coverage",
     "prepack": "npm run build",
     "build": "npm run build:node & npm run build:web",
